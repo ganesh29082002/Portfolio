@@ -17,18 +17,21 @@ export default function Home() {
           and continuous growth, I thrive as a self-learner in the ever-evolving
           world of technology.
         </p>
-        <button
-          type="button"
+        <a
+          type="button" target="blank"
+          href="https://drive.google.com/file/d/1rZk-rDP50ufYYLlDR6IT_htJW4C5x7wl/view?pli=1"
           class=" mt-5 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"
         >
           Resume
-        </button>
-        <button
+        </a>
+        <a
           type="button"
+
+          href="#contact"
           class= " mt-5 text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
         >
           Hire Me
-        </button>
+        </a>
       </div>
 
       <div className="right w-full flex justify-center md:justify-end mb-6">

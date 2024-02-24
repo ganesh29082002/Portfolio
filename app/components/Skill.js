@@ -2,14 +2,14 @@ import React from 'react'
 
 const skills = [
    
-    { name: "NextJs", imgSrc: "./nextjs.png" },
+    { name: "NextJs", imgSrc: "./nextjs1.png" },
     { name: "MERN Stack", imgSrc: "./MERN.png" },
-    { name: "JavaScript", imgSrc: "javascript_image_uri.jpg" },
-    { name: "PHP", imgSrc: "javascript_image_uri.jpg" },
-    { name: "Sql", imgSrc: "html_image_uri.jpg" },
-    { name: "Bootstrap", imgSrc: "html_image_uri.jpg" },
-    { name: "Tailwind Css", imgSrc: "html_image_uri.jpg" },
-    { name: " Redux", imgSrc: "html_image_uri.jpg" },
+    { name: "JavaScript", imgSrc: "javaScript.png" },
+    { name: "PHP", imgSrc: "php_PNG43.png" },
+    { name: "Sql", imgSrc: "./sql-5.png" },
+    { name: "Bootstrap", imgSrc: "bootstrap-logo.png" },
+    { name: "Tailwind Css", imgSrc: "tailwindcss.png" },
+    { name: " Redux", imgSrc: "REDUX.png" },
 
 
     
@@ -30,7 +30,7 @@ export default function Skill() {
 {skills.map((skill, index) => (
         <div className="w-44 mx-4 my-4 h-56 flex flex-col items-center justify-center max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" key={index}>
           <div className="flex flex-col items-center justify-center pb-4">
-            <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={skill.imgSrc} alt={`${skill.name} image`} />
+            <img className="w-24 h-24 mb-3 rounded-full shadow-lg " src={skill.imgSrc} alt={`${skill.name} image`} />
             <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{skill.name}</h5>
             <span className="text-sm text-gray-500 dark:text-gray-400">{skill.name} skill</span>
           </div>
