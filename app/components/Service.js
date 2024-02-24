@@ -43,7 +43,7 @@ export default function Service() {
     </p>
       <div className="services flex justify-center flex-wrap mt-14">
       {services.map((service, index) => (
-<div class="w-full max-w-sm bg-white border  mx-2 my-2 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div key={index} class="w-full max-w-sm bg-white border  mx-2 my-2 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <div class="flex flex-col items-center pb-10">
         <img class="w-24 h-24 mb-3 rounded-lg shadow- mt-2" src={service.imgSrc} alt="Bonnie image"/>
         <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">{service.name}</h5>
